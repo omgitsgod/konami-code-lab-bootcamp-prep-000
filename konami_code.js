@@ -25,6 +25,7 @@ input.addEventListener('keydown', function onKeyDownHandler(e) {
     
     if (index === codes.length) {
       alert('SHHHHH! Dont tell anyone!')
+      console.log("whamo")
       index = 0
     } 
   }})
